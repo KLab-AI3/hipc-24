@@ -1,4 +1,4 @@
-# 🧠 CNN Models with SYCL Convolution Integration
+# CNN Models with SYCL Convolution Integration
 
 This directory includes PyTorch CNN model definitions (VGG16, ResNet101, InceptionV4) where the standard `nn.Conv2d` layers are replaced with custom convolution layers implemented using SYCL kernels.
 
