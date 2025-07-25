@@ -11,7 +11,7 @@ The goal is to evaluate and compare different algorithmic strategies for acceler
 2. **Depthwise Convolution** — One kernel per input channel.
 3. **Im2col** — Column-wise patch flattening + matrix multiplication.
 4. **Kn2row** — Kernel flattening technique.
-5. **SMM (Scalar Matrix Multiplication)** — Sparse-aware direct multiplication, baseline for unstructured convolution.
+5. **SMM (Scalar Matrix Multiplication)** — Performs sparse-aware scalar matrix multiplication by avoiding explicit zero computation.
 
 ---
 
