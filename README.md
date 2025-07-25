@@ -145,22 +145,22 @@ smm_result.csv
 
 ```
 .
-├── sycl_kernels/                 # SYCL convolution algorithms
-│   ├── SMM.cpp
-│   ├── Kn2row.cpp
-│   ├── Im2col.cpp
-│   ├── Direct.cpp
-│   ├── Depthwise.cpp
-│   ├── README.md
+├── sycl_kernels/             # 🔧 SYCL kernel implementations
+│   ├── SMM.cpp               # Scalar Matrix Multiplication
+│   ├── Kn2row.cpp            # Kernel to Row
+│   ├── Im2col.cpp            # Image to Column
+│   ├── Direct.cpp            # Naive loop
+│   ├── Depthwise.cpp         # Depthwise convolution
+│   └── README.md             # Kernel compilation guide
 │
-├── models/                      # CNN models using ctypes-based custom conv
-│   ├── vgg16_sycl.py
-│   ├── resnet101_sycl.py
-│   ├── inceptionv4_sycl.py
-│   ├── README.md
+├── models/                   # 🧠 CNN model implementations
+│   ├── vgg16_sycl.py              # VGG16 with dynamic SYCL conv
+│   ├── resnet101_sycl.py          # ResNet101 with dynamic SYCL conv
+│   ├── inceptionv4_sycl.py        # InceptionV4 with dynamic SYCL conv
+│   └── README.md             # Usage instructions
 │
-├── requirements.txt
-├── README.md
+├── requirements.txt          # Python dependencies
+├── README.md                 # You are here
 ```
 
 ---
